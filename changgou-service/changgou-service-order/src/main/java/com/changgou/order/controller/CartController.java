@@ -40,7 +40,8 @@ public class CartController {
         cartService.add(skuId, num, username);
         return new Result(true, StatusCode.OK, "商品加入购物车成功");
     }
-
+    
+    
     /**
      * @author 栗子
      * @Description 展示购物车列表数据
